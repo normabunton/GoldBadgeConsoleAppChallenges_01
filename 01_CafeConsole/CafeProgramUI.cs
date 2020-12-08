@@ -17,10 +17,7 @@ namespace _01_CafeConsole
         {
             bool keepRunning = true;
             while (keepRunning)
-            {
-
-
-                //Display options to the user
+            {                //Display options to the user
                 Console.WriteLine("Select a menu option:\n" +
                                     "1. Create a new Menu Item\n" +
                                     "2. Delete a Menu Item\n" +
@@ -55,7 +52,22 @@ namespace _01_CafeConsole
         }
         private void CreateNewMenuItem()                //create new MenuItem
         {
-            
+            Menu newMenu = new Menu();
+
+            Console.WriteLine("Enter the New Meal Number you would like to use:");          //MealNumber
+            newMenu.MealNumber = Console.ReadLine();
+
+            Console.WriteLine("Enter the Name of the Meal:");                               //NameOfMeal
+            newMenu.NameOfMeal = Console.ReadLine();
+
+            Console.WriteLine("Enter the Meal Desciption:");                                //MealDescription                             
+            newMenu.MealDescription = Console.Read();
+
+            Console.WriteLine("Enter the Ingredients for this meal");                       //Ingredients
+            newMenu.Ingredients = Console.Read();
+
+            Console.WriteLine("Enter the Price for this Meal:");                            //Price
+            newMenu.Price = Console.Read();
         }
         private void DeleteMenuItems()                  //Delete MenuItems
         {
