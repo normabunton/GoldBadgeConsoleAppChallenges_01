@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace _01_CafeConsole
 {
-    class Program
+    class CafeProgram
     {
         static void Main(string[] args)
         {
+            CafeProgramUI program = new CafeProgramUI();
+            program.Run();
+           
         }
     }
 }

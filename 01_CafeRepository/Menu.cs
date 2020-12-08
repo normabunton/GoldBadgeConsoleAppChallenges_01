@@ -17,22 +17,19 @@ namespace _01_CafeRepository
     //}
     public class Menu
     {                                 //POCO
-        public string NameOfMeal { get; set; }
         public double MealNumber { get; set; }
+        public string NameOfMeal { get; set; }
         public string MealDescription { get; set; }
         public string Ingredients { get; set; }
         public double Price { get; set; }
-
         public Menu() { }
-        public Menu(string nameOfMeal, double mealNumber, string mealDescription, string ingredients, double price)
+        public Menu(double mealNumber, string nameOfMeal, string mealDescription, string ingredients, double price)
         {
-            NameOfMeal = nameOfMeal;
             MealNumber = mealNumber;
+            NameOfMeal = nameOfMeal;
             MealDescription = mealDescription;
             Ingredients = ingredients;
             Price = price;
-
         }
-
     }
 }
