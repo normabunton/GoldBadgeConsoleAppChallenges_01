@@ -32,13 +32,13 @@ namespace _01_CafeConsole
                 switch (input)
                 {
                     case "1":
-
+                        CreateNewMenuItem();
                         break;
                     case "2":
-
+                        DeleteMenuItems();
                         break;
                     case "3":
-
+                        DisplayAllMenuItems();
                         break;
                     case "4":
                         Console.WriteLine("Thank you, Goobye!");
@@ -53,7 +53,15 @@ namespace _01_CafeConsole
                 Console.Clear();
             }
         }
-        private void CreateNewMenuItem()
+        private void CreateNewMenuItem()                //create new MenuItem
+        {
+            
+        }
+        private void DeleteMenuItems()                  //Delete MenuItems
+        {
+
+        }
+        private void DisplayAllMenuItems()              //View All MenuItems
         {
 
         }
