@@ -5,19 +5,19 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_CafeRepository", "01_CafeRepository\01_CafeRepository.csproj", "{21A839B8-3973-4133-B874-50459F2D955C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_CafeConsole", "01_CafeConsole\01_CafeConsole.csproj", "{841A99BF-0B71-44A9-BA6C-3B6C8CEBC6C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_CafeConsoleUI", "01_CafeConsole\01_CafeConsoleUI.csproj", "{841A99BF-0B71-44A9-BA6C-3B6C8CEBC6C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_CafeTests", "01_CafeTests\01_CafeTests.csproj", "{EDDDA180-275C-4542-9DE9-B20885036D2C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ClaimsRepository", "02_ClaimsRepository\02_ClaimsRepository.csproj", "{E1A9B04F-8CC7-4041-8FD3-E19A9306AA5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ClaimsConsole", "02_ClaimsConsole\02_ClaimsConsole.csproj", "{B869B253-7288-4ECA-806E-C28043DF6A5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ClaimsConsoleUI", "02_ClaimsConsole\02_ClaimsConsoleUI.csproj", "{B869B253-7288-4ECA-806E-C28043DF6A5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ClaimsTests", "02_ClaimsTests\02_ClaimsTests.csproj", "{901BCDE4-F62C-43B9-894E-5C40BEB6B7DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_BadgesRepository", "03_BadgesRepository\03_BadgesRepository.csproj", "{74ED6EF9-C34A-4337-898A-1D642364E4FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_BadgesConsole", "03_BadgesConsole\03_BadgesConsole.csproj", "{1370B39A-5D5C-42B8-8455-3EE215E7A203}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_BadgesConsoleUI", "03_BadgesConsole\03_BadgesConsoleUI.csproj", "{1370B39A-5D5C-42B8-8455-3EE215E7A203}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_BadgesTests", "03_BadgesTests\03_BadgesTests.csproj", "{2FB7B596-1E9B-456D-8335-CA307341DD38}"
 EndProject

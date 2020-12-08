@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace _01_CafeRepository
 {
-    class Program
+    class MenuRepository
     {
-        static void Main(string[] args)
-        {
-        }
+        
     }
 }
+//Methods Needed
+
