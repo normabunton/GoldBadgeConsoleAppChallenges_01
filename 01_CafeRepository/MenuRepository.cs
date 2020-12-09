@@ -5,22 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _01_CafeRepository
-{                                 /// CRUD METHODS 
+{                                
     public class MenuRepository
     {
-        private List<Menu> _menuItems = new List<Menu>();
-        //create new menu items
+        public List<Menu> _menuItems = new List<Menu>();       //create new menu items
         public void AddItemToMenu(Menu menuItem)
         {
             _menuItems.Add(menuItem);
-        }
-        //read list of all items on the cafe menu
-        public List<Menu> GetMenuItems()
+        }        
+        public List<Menu> GetMenuItems()                        //read list of all items on the cafe menu
         {
             return _menuItems;
-        }
-        //delete menu items
-        public bool RemoveItemFromMenu(double mealNumber)
+        }        
+        public bool RemoveItemFromMenu(double mealNumber)        //delete menu items
         {
             Menu menuItem = GetMenuItemByMealNumber(mealNumber);
             if(menuItem == null)
@@ -38,8 +35,7 @@ namespace _01_CafeRepository
                 return false;
             }
         }
-        //HelperMethod
-        private Menu GetMenuItemByMealNumber(double mealNumber)
+        private Menu GetMenuItemByMealNumber(double mealNumber) //HelperMethod
         {
             foreach (Menu menuItems in _menuItems)
             {

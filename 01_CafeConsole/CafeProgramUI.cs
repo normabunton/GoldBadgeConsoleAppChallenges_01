@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _01_CafeRepository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,12 +9,13 @@ namespace _01_CafeConsole
 {
     class CafeProgramUI
     {
+        public MenuRepository _menuItems = new MenuRepository();
         public void Run()                              //Method that runs and starts the app
         {
             Menu();
         }
         //Menu
-        private void Menu()
+        public void Menu()
         {
             bool keepRunning = true;
             while (keepRunning)
@@ -50,30 +52,33 @@ namespace _01_CafeConsole
                 Console.Clear();
             }
         }
-        private void CreateNewMenuItem()                //create new MenuItem
+        public void CreateNewMenuItem()                                                    //create new MenuItem//////////////////////////
         {
             Menu newMenu = new Menu();
 
-            Console.WriteLine("Enter the New Meal Number you would like to use:");          //MealNumber
-            newMenu.MealNumber = Console.ReadLine();
+            //Console.WriteLine("Enter the New Meal Number you would like to use:");
+            //string mealNumberAsString = Console.ReadLine();
+            //newMenu.mealNumberAsString = double.Parse(mealNumberAsString);
 
-            Console.WriteLine("Enter the Name of the Meal:");                               //NameOfMeal
+            Console.WriteLine("Enter the Name of the Meal:");                               
             newMenu.NameOfMeal = Console.ReadLine();
 
-            Console.WriteLine("Enter the Meal Desciption:");                                //MealDescription                             
-            newMenu.MealDescription = Console.Read();
+            Console.WriteLine("Enter the Meal Desciption:");                                                             
+            newMenu.MealDescription = Console.ReadLine();
 
-            Console.WriteLine("Enter the Ingredients for this meal");                       //Ingredients
-            newMenu.Ingredients = Console.Read();
+            Console.WriteLine("Enter the Ingredients for this meal");                       
+            newMenu.Ingredients = Console.ReadLine();
 
-            Console.WriteLine("Enter the Price for this Meal:");                            //Price
-            newMenu.Price = Console.Read();
+            //Console.WriteLine("Enter the Price for this Meal(4.99, 5.99, 6.99, 7.99 etc):"); 
+            //string priceAsString = Console.ReadLine();
+            //newMenu.priceAsString = double.Parse(priceAsString);
         }
-        private void DeleteMenuItems()                  //Delete MenuItems
+     
+        private void DeleteMenuItems()                                                       //Delete MenuItems//////////////////////////
         {
 
         }
-        private void DisplayAllMenuItems()              //View All MenuItems
+        private void DisplayAllMenuItems()                                                  //Display/View All MenuItems/////////////////////////////
         {
 
         }
