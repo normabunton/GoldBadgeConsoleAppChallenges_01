@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_CafeConsole
+namespace CafeProgram_UI_01
 {
-    public class CafeProgram
+    class Program
     {
-        public void Main(string[] args)
+        static void Main(string[] args)
         {
             CafeProgramUI program = new CafeProgramUI();
-            program.Run();           
+            program.Run();
         }
     }
 }

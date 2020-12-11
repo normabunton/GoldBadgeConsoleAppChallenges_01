@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_CafeConsole
+namespace CafeProgram_UI_01
 {
     class CafeProgramUI
     {
@@ -60,20 +60,20 @@ namespace _01_CafeConsole
             //string mealNumberAsString = Console.ReadLine();
             //newMenu.mealNumberAsString = double.Parse(mealNumberAsString);
 
-            Console.WriteLine("Enter the Name of the Meal:");                               
+            Console.WriteLine("Enter the Name of the Meal:");
             newMenu.NameOfMeal = Console.ReadLine();
 
-            Console.WriteLine("Enter the Meal Desciption:");                                                             
+            Console.WriteLine("Enter the Meal Desciption:");
             newMenu.MealDescription = Console.ReadLine();
 
-            Console.WriteLine("Enter the Ingredients for this meal");                       
+            Console.WriteLine("Enter the Ingredients for this meal");
             newMenu.Ingredients = Console.ReadLine();
 
             //Console.WriteLine("Enter the Price for this Meal(4.99, 5.99, 6.99, 7.99 etc):"); 
             //string priceAsString = Console.ReadLine();
             //newMenu.priceAsString = double.Parse(priceAsString);
         }
-     
+
         private void DeleteMenuItems()                                                       //Delete MenuItems//////////////////////////
         {
 

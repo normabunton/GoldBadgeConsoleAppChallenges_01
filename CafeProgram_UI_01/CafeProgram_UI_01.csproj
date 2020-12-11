@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{841A99BF-0B71-44A9-BA6C-3B6C8CEBC6C6}</ProjectGuid>
+    <ProjectGuid>{4A5DE054-82D4-4F3F-9EAB-FB143DBD4E44}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_CafeConsole</RootNamespace>
-    <AssemblyName>01_CafeConsole</AssemblyName>
+    <RootNamespace>CafeProgram_UI_01</RootNamespace>
+    <AssemblyName>CafeProgram_UI_01</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CafeProgramUI.cs" />
-    <Compile Include="CafeProgram.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

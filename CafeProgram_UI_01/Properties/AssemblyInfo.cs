@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("01_CafeConsole")]
+[assembly: AssemblyTitle("CafeProgram_UI_01")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("01_CafeConsole")]
+[assembly: AssemblyProduct("CafeProgram_UI_01")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("841a99bf-0b71-44a9-ba6c-3b6c8cebc6c6")]
+[assembly: Guid("4a5de054-82d4-4f3f-9eab-fb143dbd4e44")]
 
 // Version information for an assembly consists of the following four values:
 //
